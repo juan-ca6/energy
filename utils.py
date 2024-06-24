@@ -18,7 +18,7 @@ def save_df(latitude,longitude):
 
     actual_data = data_parts[1].strip()
 
-    path = f'.csv'
+    path = f'/csv/lat={latitude}_lon={longitude}.csv'
 
     with open(path, 'w') as f:
         f.write(actual_data)
